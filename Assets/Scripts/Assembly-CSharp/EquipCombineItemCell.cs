@@ -1,0 +1,110 @@
+using System;
+using DG.Tweening;
+using UIKit;
+using UnityEngine;
+
+public class EquipCombineItemCell : UITableViewCell
+{
+	public enum TabName
+	{
+		Unknown = 0,
+		Combine = 1,
+		Melt = 2,
+		Break = 3,
+		Wish = 4,
+		GemCombine = 5,
+		DragonCombine = 6,
+		Reset = 7
+	}
+
+	public enum State
+	{
+		Default = 0,
+		Main = 1,
+		Vice = 2,
+		Invalid = 3,
+		Locked = 4,
+		Suggest = 5
+	}
+
+	public DOTweenAnimation child_ani;
+
+	public ButtonCtrl mButton;
+
+	public GameObject equiparent;
+
+	public GameObject mLock;
+
+	public GameObject mChoose_First;
+
+	public GameObject mChoose_Second;
+
+	public GameObject mChoose_Yellow;
+
+	public Action<EquipCombineItemCell> OnButtonClick;
+
+	private int m_nIndex;
+
+	private EquipOneCtrl mEquip;
+
+	private State currentState;
+
+	private TabName tabName;
+
+	public EquipCombineChooseOne mChoose { get; private set; }
+
+	public int Index
+	{
+		get
+		{
+			return 0;
+		}
+		set
+		{
+		}
+	}
+
+	public LocalSave.EquipOne mData { get; private set; }
+
+	public bool choosed { get; set; }
+
+	private new void Awake()
+	{
+	}
+
+	public void Init(int index, LocalSave.EquipOne one, TabName name = TabName.Unknown)
+	{
+	}
+
+	public void SetLock(bool value)
+	{
+	}
+
+	public void PlayAni(bool value)
+	{
+	}
+
+	public void SetChoose(EquipCombineChooseOne one)
+	{
+	}
+
+	public void SetState(State state, bool fromInit = false)
+	{
+	}
+
+	public void SetButtonEnable(bool value)
+	{
+	}
+
+	public void setChoosed(bool choose)
+	{
+	}
+
+	public void hideWishRedPoint()
+	{
+	}
+
+	public void setRedPointShowORHide(bool show)
+	{
+	}
+}
