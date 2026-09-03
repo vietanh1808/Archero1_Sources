@@ -1,0 +1,25 @@
+using TCPPacket;
+using UnityEngine;
+
+public class StopMoveCommand : BaseCommand
+{
+	public Vector3 stopPos;
+
+	public override CommandType GetType()
+	{
+		return CommandType.Move;
+	}
+
+	public override void Clear()
+	{
+	}
+
+	public override TcpPacketBase ToPacket(int guid)
+	{
+		return null;
+	}
+
+	public override void InitByTcpPacket(TcpPacketBase packet)
+	{
+	}
+}
