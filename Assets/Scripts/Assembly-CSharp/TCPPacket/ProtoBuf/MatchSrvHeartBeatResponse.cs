@@ -1,0 +1,155 @@
+using System;
+using System.CodeDom.Compiler;
+using System.Diagnostics;
+using Google.Protobuf;
+using Google.Protobuf.Reflection;
+
+namespace TCPPacket.ProtoBuf
+{
+	public sealed class MatchSrvHeartBeatResponse : IMessage<MatchSrvHeartBeatResponse>, IMessage, IEquatable<MatchSrvHeartBeatResponse>, IDeepCloneable<MatchSrvHeartBeatResponse>
+	{
+		private static readonly MessageParser<MatchSrvHeartBeatResponse> _parser;
+
+		private UnknownFieldSet _unknownFields;
+
+		public const int TimestampFieldNumber = 1;
+
+		private ulong timestamp_;
+
+		public const int BattleTimestampFieldNumber = 2;
+
+		private ulong battleTimestamp_;
+
+		public const int RoomCountFieldNumber = 3;
+
+		private uint roomCount_;
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public static MessageParser<MatchSrvHeartBeatResponse> Parser => null;
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public static MessageDescriptor Descriptor => null;
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		MessageDescriptor IMessage.Descriptor => pb_003A_003AGoogle_002EProtobuf_002EIMessage_002Eget_Descriptor();
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public ulong Timestamp
+		{
+			get
+			{
+				return 0uL;
+			}
+			set
+			{
+			}
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public ulong BattleTimestamp
+		{
+			get
+			{
+				return 0uL;
+			}
+			set
+			{
+			}
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public uint RoomCount
+		{
+			get
+			{
+				return 0u;
+			}
+			set
+			{
+			}
+		}
+
+		private MessageDescriptor pb_003A_003AGoogle_002EProtobuf_002EIMessage_002Eget_Descriptor()
+		{
+			return null;
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public MatchSrvHeartBeatResponse()
+		{
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public MatchSrvHeartBeatResponse(MatchSrvHeartBeatResponse other)
+		{
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public MatchSrvHeartBeatResponse Clone()
+		{
+			return null;
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public override bool Equals(object other)
+		{
+			return false;
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public bool Equals(MatchSrvHeartBeatResponse other)
+		{
+			return false;
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public override int GetHashCode()
+		{
+			return 0;
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public override string ToString()
+		{
+			return null;
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public void WriteTo(CodedOutputStream output)
+		{
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public int CalculateSize()
+		{
+			return 0;
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public void MergeFrom(MatchSrvHeartBeatResponse other)
+		{
+		}
+
+		[DebuggerNonUserCode]
+		[GeneratedCode("protoc", null)]
+		public void MergeFrom(CodedInputStream input)
+		{
+		}
+	}
+}
