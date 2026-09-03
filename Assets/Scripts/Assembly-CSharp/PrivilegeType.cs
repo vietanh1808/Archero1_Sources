@@ -1,0 +1,28 @@
+public enum PrivilegeType
+{
+	None = 0,
+	AdFree = 1,
+	KeyUp = 2,
+	SweepUp = 3,
+	ShopGoldAdFree = 4,
+	WishingBottleRateUp = 5,
+	DiamondBuyUp = 6,
+	Grandmaster = 7,
+	Daily109GoldDropUp = 8,
+	DemonEffectDown = 9,
+	EquipExchangeDiamondCostDown = 10,
+	DiamondDropUp = 11,
+	RefreshSkillSlotFree = 12,
+	LegendTokenGoldUp = 13,
+	ShortSweepUp = 14,
+	AdventureUnlockSweepUp = 15,
+	CharacterLevelUp = 16,
+	AngelSkill = 17,
+	SkillLockNextRound = 18,
+	SweepRewardsUp = 19,
+	ShortPatrolTimeUp = 20,
+	EquipStoragePageCountAdd = 22,
+	SomeActivityUnlockSpeedUp = 23,
+	TotemDropUp = 24,
+	EquipDownDiamondReduce = 25
+}
