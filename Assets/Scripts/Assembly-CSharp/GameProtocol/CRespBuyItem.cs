@@ -1,0 +1,21 @@
+using System;
+using System.IO;
+
+namespace GameProtocol
+{
+	[Serializable]
+	public sealed class CRespBuyItem : IProtocol
+	{
+		public CCommonRespMsg m_stRetMsg;
+
+		public ushort GetMsgType => 0;
+
+		public void ReadFromStream(BinaryReader reader)
+		{
+		}
+
+		public void WriteToStream(BinaryWriter writer)
+		{
+		}
+	}
+}

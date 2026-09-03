@@ -1,0 +1,27 @@
+using System;
+using System.IO;
+
+namespace GameProtocol
+{
+	[Serializable]
+	public sealed class STReqTreasureShop : CProtocolBase
+	{
+		public uint m_nTransID;
+
+		public ushort m_nType;
+
+		public int m_nNum;
+
+		public uint m_nId;
+
+		public override ushort GetMsgType => 0;
+
+		protected override void OnReadFromStream(BinaryReader reader)
+		{
+		}
+
+		protected override void OnWriteToStream(BinaryWriter writer)
+		{
+		}
+	}
+}

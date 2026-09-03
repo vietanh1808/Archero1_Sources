@@ -1,0 +1,29 @@
+using System;
+using System.IO;
+using Newtonsoft.Json;
+
+namespace GameProtocol
+{
+	[Serializable]
+	public sealed class STActivityCrazyGift : IProtocol
+	{
+		public const ushort MsgType = ushort.MaxValue;
+
+		public uint m_nGiftId;
+
+		public uint m_nBuyCount;
+
+		public string strGiftItem;
+
+		[JsonIgnore]
+		public ushort GetMsgType => 0;
+
+		public void ReadFromStream(BinaryReader reader)
+		{
+		}
+
+		public void WriteToStream(BinaryWriter writer)
+		{
+		}
+	}
+}
