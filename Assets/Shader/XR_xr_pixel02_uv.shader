@@ -1,0 +1,73 @@
+Shader "XR/xr_pixel02_uv" {
+	Properties {
+		_EffectWeaken ("EffectWeaken", Range(0, 1)) = 1
+		_MainColor ("MainColor", Vector) = (1,1,1,1)
+		[Enum(Yes,0,No,1)] _UseGrayScale ("UseGrayScale", Float) = 1
+		_MainTex ("MainTex", 2D) = "white" {}
+		_Uspeed ("Uspeed", Float) = 0
+		_Vspeed ("Vspeed", Float) = 0
+		[Enum(R,0,A,1)] _MainAlphaChennel ("MainAlphaChennel", Float) = 0
+		_Mask ("Mask", 2D) = "white" {}
+		[Enum(R,0,A,1)] _MaskAlphaChennel ("MaskAlphaChennel", Float) = 0
+		[Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull", Float) = 0
+		[HideInInspector] _texcoord ("", 2D) = "white" {}
+		_Stencil ("Stencil ID", Float) = 0
+		_StencilComp ("Stencil Comparison", Float) = 8
+		_StencilOp ("Stencil Operation", Float) = 0
+		_StencilWriteMask ("Stencil Write Mask", Float) = 255
+		_StencilReadMask ("Stencil Read Mask", Float) = 255
+		_ColorMask ("Color Mask", Float) = 15
+	}
+	//DummyShaderTextExporter
+	SubShader{
+		Tags { "RenderType"="Opaque" }
+		LOD 200
+
+		Pass
+		{
+			HLSLPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+
+			float4x4 unity_ObjectToWorld;
+			float4x4 unity_MatrixVP;
+			float4 _MainTex_ST;
+
+			struct Vertex_Stage_Input
+			{
+				float4 pos : POSITION;
+				float2 uv : TEXCOORD0;
+			};
+
+			struct Vertex_Stage_Output
+			{
+				float2 uv : TEXCOORD0;
+				float4 pos : SV_POSITION;
+			};
+
+			Vertex_Stage_Output vert(Vertex_Stage_Input input)
+			{
+				Vertex_Stage_Output output;
+				output.uv = (input.uv.xy * _MainTex_ST.xy) + _MainTex_ST.zw;
+				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
+				return output;
+			}
+
+			Texture2D<float4> _MainTex;
+			SamplerState sampler_MainTex;
+
+			struct Fragment_Stage_Input
+			{
+				float2 uv : TEXCOORD0;
+			};
+
+			float4 frag(Fragment_Stage_Input input) : SV_TARGET
+			{
+				return _MainTex.Sample(sampler_MainTex, input.uv.xy);
+			}
+
+			ENDHLSL
+		}
+	}
+	//CustomEditor "ASEMaterialInspector"
+}
