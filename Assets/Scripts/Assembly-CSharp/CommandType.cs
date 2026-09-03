@@ -1,0 +1,26 @@
+public enum CommandType
+{
+	Move = 0,
+	StopMove = 1,
+	Rote = 2,
+	Action = 3,
+	SetTarget = 4,
+	ChangeHp = 5,
+	Buff = 6,
+	RoteTarget = 7,
+	Attack = 8,
+	LearnSkill = 9,
+	ExcuteAttribute = 10,
+	Reborn = 11,
+	HeroDead = 12,
+	PlaySound = 13,
+	CreateBullet = 14,
+	Behavior = 15,
+	CreatePartBody = 16,
+	DeleteEntity = 17,
+	Teleport = 18,
+	ChangeAttackState = 19,
+	HitOnce = 20,
+	ExpressionCmd = 21,
+	CustomJsonCmd = 100
+}

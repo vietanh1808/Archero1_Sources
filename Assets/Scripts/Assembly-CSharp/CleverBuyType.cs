@@ -1,0 +1,28 @@
+public enum CleverBuyType
+{
+	none = 0,
+	eFirstBuy = 1,
+	eStageBuy = 2,
+	eEquipBuy = 3,
+	eGoldBuy = 4,
+	eEquipDoubleBuy = 5,
+	eBackBuy = 6,
+	eDiamondBuy = 7,
+	eScrollBuy = 8,
+	eStoneBuy = 9,
+	eFragmentBuy = 10,
+	eCookieBuy = 11,
+	eBraceletNecklaceBuy = 12,
+	eRuneBuy = 13,
+	eBookBuy = 14,
+	eAwakenBuy = 15,
+	eAdvSkinCouponBuy = 16,
+	eFragmentBuyNew = 17,
+	eGemBuy = 18,
+	eNewFunctionPropsStart = 20,
+	eNewFunctionPropsEnd = 29,
+	eHigherLevelGems = 51,
+	eHigherLevelRelics = 52,
+	eHigherLevelWorker = 53,
+	Length = 54
+}
