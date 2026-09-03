@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a358da0ec4cb25a82c3ea6f5f165fb, type: 3}
+  m_Name: camp_config
+  m_EditorClassIdentifier:
+  uiAtlasDependencies:
+  - prefabPath: UIPanel/Camp/BP/CampBPItem
+    addressableAtlasNames:
+    - Atlas/CampBP
+  - prefabPath: UIPanel/Camp/BP/CampBPItemCell
+    addressableAtlasNames:
+    - Atlas/CampBP
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/BP/CampBPNormalBuyUIPanel
+    addressableAtlasNames:
+    - Atlas/CampBP
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/BP/CampBPPremiumBuyUIPanel
+    addressableAtlasNames:
+    - Atlas/CampBP
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/BP/CampBPUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/CampBP
+    - Atlas/camptownskinicon
+  - prefabPath: UIPanel/Camp/CampAchievement/CampAchievementProgressItem
+    addressableAtlasNames:
+    - Atlas/camptalent
+  - prefabPath: UIPanel/Camp/CampAchievement/CampAchievementUIPanel
+    addressableAtlasNames:
+    - Atlas/camptalent
+  - prefabPath: UIPanel/Camp/CampGift/CampNormalGiftItem
+    addressableAtlasNames:
+    - Atlas/camptalent
+    - Atlas/campgift
+  - prefabPath: UIPanel/Camp/CampGift/CampNormalGiftUIPanel
+    addressableAtlasNames:
+    - Atlas/campgift
+    - Atlas/camptownskinicon
+  - prefabPath: UIPanel/Camp/CampGift/CampTimingGiftAddItem
+    addressableAtlasNames:
+    - Atlas/campgift
+  - prefabPath: UIPanel/Camp/CampGift/CampTimingGiftItem
+    addressableAtlasNames:
+    - Atlas/campgift
+  - prefabPath: UIPanel/Camp/CampGift/CampTimingGiftRewardItem
+    addressableAtlasNames:
+    - Atlas/campgift
+  - prefabPath: UIPanel/Camp/CampGift/CampTimingGiftTabItem
+    addressableAtlasNames:
+    - Atlas/campgift
+  - prefabPath: UIPanel/Camp/CampGift/CampTimingGiftUIPanel
+    addressableAtlasNames:
+    - Atlas/campgift
+  - prefabPath: UIPanel/Camp/CampHeroSendUIPanel
+    addressableAtlasNames:
+    - Atlas/campgift
+  - prefabPath: UIPanel/Camp/CampMainUI
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/camptile
+    - Atlas/campkingscramble
+  - prefabPath: UIPanel/Camp/CampPreCallUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampPreRewardUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/camptownskinicon
+  - prefabPath: UIPanel/Camp/CampPreUIPanel
+    addressableAtlasNames:
+    - Atlas/camppre
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampShop/CampShopUIPanel
+    addressableAtlasNames:
+    - Atlas/camptalent
+    - Atlas/camp
+    - Atlas/camptownskinicon
+  - prefabPath: UIPanel/Camp/CampTalent/CampTalentPersonalProgressItem
+    addressableAtlasNames:
+    - Atlas/camptalent
+  - prefabPath: UIPanel/Camp/CampTalent/CampTalentTeamProgressItem
+    addressableAtlasNames:
+    - Atlas/camptalent
+  - prefabPath: UIPanel/Camp/CampTalent/CampTalentTeamTaskProgressItem
+    addressableAtlasNames:
+    - Atlas/camptalent
+  - prefabPath: UIPanel/Camp/CampTalent/CampTalentTeamUIPanel
+    addressableAtlasNames:
+    - Atlas/camptalent
+  - prefabPath: UIPanel/Camp/CampTalent/CampTalentUIPanel
+    addressableAtlasNames:
+    - Atlas/camptalent
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/Ani/CampTileProgressLight
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileArrowItem
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileArrowUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileAttackReward
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileBaseInfo
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/CampTileBattleProgress
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/CampTileBossProgress
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileBossUIPanel
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/CampTileChest
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileContributeRank
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileContributeRankItem
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileDispatch
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileGateUIPanel
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+    - Atlas/camptownskinicon
+  - prefabPath: UIPanel/Camp/CampTile/CampTileHeroDispatchItem
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileHeroDispatchUIPanel
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileIcon
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileLandUIPanel
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/CampTileMonsterLairUIPanel
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/CampTileMonsterProgress
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/CampTileMonsterProgressItem
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/CampTileNormalProgress
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileOccupyReward
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileOutputPreview
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTile/CampTileProgress
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTile/CampTileResourceUIPanel
+    addressableAtlasNames:
+    - Atlas/camptile
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTileMarkItem
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTileTimeItem
+    addressableAtlasNames:
+    - Atlas/camptile
+  - prefabPath: UIPanel/Camp/CampTownSkin/CampTownSkinItem
+    addressableAtlasNames:
+    - Atlas/camptownskinicon
+  - prefabPath: UIPanel/Camp/Guide/DiglogueItem
+    addressableAtlasNames:
+    - Atlas/CampGuide
+  - prefabPath: UIPanel/Camp/NobilityUI/NobilityUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/camptownskinicon
+  - prefabPath: UIPanel/Camp/Rank/CampRankItemCell
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/camprank
+  - prefabPath: UIPanel/Camp/Rank/CampRankMyItem
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/camprank
+  - prefabPath: UIPanel/Camp/Rank/CampRankUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/camprank
+  - prefabPath: UIPanel/Camp/TileBubble
+    addressableAtlasNames:
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/Town/CampMatExchangeUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/Town/CampTownFactoryUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+    - Atlas/campgift
+  - prefabPath: UIPanel/Camp/Town/CampTownLevelUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/Town/CampTownResItem
+    addressableAtlasNames:
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/Town/CampTownUI
+    addressableAtlasNames:
+    - Atlas/camptower
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/Town/CampTownUpUIPanel
+    addressableAtlasNames:
+    - Atlas/camp
+  - prefabPath: UIPanel/Camp/CampTownSkin/CampTownSkinUIPanel
+    addressableAtlasNames:
+    - Atlas/camptownskinicon
+  - prefabPath: UIPanel/Camp/CampKingScramble/CampKingScrambleUIPanel
+    addressableAtlasNames:
+    - Atlas/camprank
+    - Atlas/campkingscramble
+    - 
+  - prefabPath: UIPanel/Camp/CampTeachUIPanel
+    addressableAtlasNames:
+    - Atlas/campteach
