@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 136724804207875695}
+  - component: {fileID: 114618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 9
+  m_Name: BabyNode2012
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!136 &136724804207875695
+CapsuleCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  m_Radius: 0.4
+  m_Height: 5
+  m_Direction: 1
+  m_Center: {x: 0, y: 2, z: 0}
+--- !u!114 &114618682377417806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f090fc293aaf8df46f29db5b9731c7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  HittedWhiteTime: 0.3
+  HittedWhiteCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.22
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.3
+      value: 0
+      inSlope: -12.505908
+      outSlope: -12.505908
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  HittedWhiteMax: 1
+  HittedScaleAnimation: 0
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54359b6c535ebda1f0004444a2e5da14, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ShowMaxHPChangeTip: 1
+  EnablePlayEliteEffect: 1
+  EnablePlayIdle: 1
+  DefaultAnimName:
+  isPreInit: 0
+  Guid: -1
+  isStartDeadClearBuff: 0
+  HPOffsetY: 100
+  m_Body: {fileID: 0}
+  m_HitEdit: {fileID: 0}
+  m_HPSlider: {fileID: 0}
+  AliveTime: 0
+  isWithSpecialShader: 0
+  HittedDirection: {x: 0, y: 0, z: 0}
+  HittedAngle: 0
+  HittedV:
+    currentCryptoKey: 2087661541
+    hiddenValue: 2095394671
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    inited: 1
+    fakeValue: 0
+    fakeValueActive: 1
+  hittedoffset: {x: 0, y: 0, z: 0}
+  m_State: 0
+  HPPercent:
+  LowResolutionShadow: {fileID: 0}
+  LowResolutionShadowCtrl: {fileID: 0}
+  isExcuteBuff_5295: 0
+  AutoUpdateTouch: 1
+  UseCustomLayerMask: 0
+  collidercount: 1
+  fireDragonHitRatioByLavaDragon: 0
+  shieldRatioByLavaDragon: 0
+  HitByLavaDragon: 0
+  HittedLastTime: 0
+  SufferZeusThunderCircleDebuff: 0
+  CanExecuteAIInHide: 0
+  bCall: 0
+  ImmunityBulletIds:
+  _DoubleRate: 0
+  AvailableElementDebuffsForPartBody:
+  LightAttackPercent: 0
+  SpearBulletContinueCount: 0
+  IsExtraBulletForwardOfMagicBookEnabled: 0
+  add_skill_list:
+  add_magicbook_skill_list:
+  SkillIdsForPartBody:
+  AvailableSkillIdsForPartBody:
+  DirectSkillIdsForPartBody:
+  HitCreate2BulletIdList:
+  EventDemonReduceHPRate: 1
+  HPDrop3InSkillAlone1644: 0
+  ForceDeadRecover: 0
+  WillDeadBuffId: 0
+  EFF_ARTHUR_KING: Effect/Battle/eff_arthur_king
+  EFF_ARTHUR_KING_CHANGE: Effect/Battle/eff_arthur_king_change
+  EFF_ARTHUR_KING_TRAIL: Effect/Battle/eff_arthur_king_trail
+  EFF_ARTHUR_KING_QUIT: Effect/Battle/eff_arthur_king_quit
+  flashConsumeBuffId: 1809
+  Play114MovSpeed: 0
+  Play114AccelerateSpeed: 0
+  Play114MaxSpeed: 0
+  HitCountByCapybaraSword: 0
+  LocalTowersCreated: 0
+  SkillIdsForTower:
+  m_Type: 0
+  bDivide: 0
+  m_WeaponHand: {fileID: 0}
+  leftWeapon: {fileID: 0}
+  rightWeapon: {fileID: 0}
+  visibleCount: 0
+  inVisibleCount: 0
+  m_CdText: {fileID: 0}

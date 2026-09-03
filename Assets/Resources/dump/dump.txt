@@ -1,0 +1,25 @@
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+pid: 0, tid: 6478 >>> com.habby.archero <<<
+
+backtrace:
+  #00  pc 0x00000000007387b0  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #01  pc 0x0000000000d1d374  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #02  pc 0x0000000000d11d94  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #03  pc 0x0000000000d1b35c  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #04  pc 0x0000000000829b1c  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #05  pc 0x0000000000829b5c  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #06  pc 0x0000000000829df0  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #07  pc 0x00000000009c6c14  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #08  pc 0x00000000009dfa2c  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/lib/arm64/libunity.so (BuildId: 8384eb86f7d993feb9b6cc74a35cc68dd3ebd072)
+  #09  pc 0x00000000002157f4  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/oat/arm64/base.odex (art_jni_trampoline+116)
+  #10  pc 0x00000000004c8250  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/oat/arm64/base.odex (com.unity3d.player.UnityPlayer$F$a.handleMessage+1200)
+  #11  pc 0x000000000055e6ec  /system/framework/arm64/boot-framework.oat (android.os.Handler.dispatchMessage+124)
+  #12  pc 0x0000000000561774  /system/framework/arm64/boot-framework.oat (android.os.Looper.loopOnce+980)
+  #13  pc 0x0000000000561320  /system/framework/arm64/boot-framework.oat (android.os.Looper.loop+528)
+  #14  pc 0x00000000004c8d3c  /data/app/~~4tFxthWiKzbGIWl1MPLG6w==/com.habby.archero-clhNDkI1AAkuaZRwMPJjrA==/oat/arm64/base.odex (com.unity3d.player.UnityPlayer$F.run+652)
+  #15  pc 0x000000000033eba4  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612)
+  #16  pc 0x000000000023a9ac  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+144)
+  #17  pc 0x000000000053b96c  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1600)
+  #18  pc 0x000000000053b31c  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+8)
+  #19  pc 0x00000000000fd0f4  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+208)
+  #20  pc 0x0000000000096a04  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68)

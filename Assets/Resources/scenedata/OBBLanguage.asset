@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782ec220b207d62446d323400ec0f34b, type: 3}
+  m_Name: OBBLanguage
+  m_EditorClassIdentifier:
+  languageArray:
+  - Key: Repairing
+    CN_s: 修复中……
+    CN_t: 修復中……
+    EN: Repairing...
+    AR: تحت الاصلاح...
+    FR: 'En réparation... '
+    DE: 'In Reperatur... '
+    ID: 'Dalam perbaikan... '
+    JP: '修理中... '
+    KR: '복구 중 ... '
+    PT_BR: 'Reparando ... '
+    RU: 'Ремонт ... '
+    ES_ES: 'Reparando ... '
+    TH: 'กำลังซ่อม ... '
+    VI: 'Đang sửa chữa ... '
+    ITALIAN: 'Riparazione ... '
+    TURKISH: 'Onarılıyor ... '
+  - Key: RepairCmplete
+    CN_s: 修复成功！3秒后重新启动！
+    CN_t: 修復成功！3秒後重新啟動！
+    EN: The repair is successful! Restart in 3 seconds!
+    AR: 'تم الإصلاح بنجاح! أعد التشغيل في 3 ثوان! '
+    FR: 'La réparation est réussie! Redémarrez dans 3 secondes! '
+    DE: 'Die Reparatur ist erfolgreich! In 3 Sekunden neu starten! '
+    ID: 'Perbaikan berhasil! Mulai ulang dalam 3 detik! '
+    JP: '修理は成功です！ 3秒で再起動！ '
+    KR: '수리가 성공적입니다! 3 초 후에 다시 시작하세요! '
+    PT_BR: 'O reparo foi bem-sucedido! Reinicie em 3 segundos! '
+    RU: 'Ремонт прошел успешно! Перезагрузка через 3 секунды! '
+    ES_ES: '¡La reparación fue exitosa! ¡Reinicie en 3 segundos! '
+    TH: 'การซ่อมแซมสำเร็จ! รีสตาร์ทใน 3 วินาที! '
+    VI: 'Việc sửa chữa thành công! Khởi động lại sau 3 giây! '
+    ITALIAN: 'La riparazione è andata a buon fine! Riavvia in 3 secondi! '
+    TURKISH: 'Onarım başarılı! 3 saniye içinde yeniden başlatın! '
+  - Key: RepairFailed
+    CN_s: 修复失败！3秒后重新进行修复！
+    CN_t: 修復失敗！3秒後重新進行修復！
+    EN: Repair failed! Repair again after 3 seconds!
+    AR: 'فشل الإصلاح! إصلاح مرة أخرى بعد 3 ثوان! '
+    FR: 'La réparation a échoué! Réparez à nouveau après 3 secondes! '
+    DE: 'Reparatur fehlgeschlagen! Nach 3 Sekunden erneut reparieren! '
+    ID: 'Perbaikan gagal! Perbaiki lagi setelah 3 detik! '
+    JP: '修理に失敗しました！ 3秒後に再度修理してください！ '
+    KR: '수리하지 못했습니다! 3 초 후에 다시 수리하십시오! '
+    PT_BR: 'O reparo falhou! Repare novamente após 3 segundos! '
+    RU: 'Ремонт не удался! Ремонт снова через 3 секунды! '
+    ES_ES: '¡Reparación fallida! ¡Repare nuevamente después de 3 segundos! '
+    TH: 'ซ่อมไม่สำเร็จ! ซ่อมอีกครั้งหลังจาก 3 วินาที! '
+    VI: 'Sửa chữa không thành công! Sửa chữa lại sau 3 giây! '
+    ITALIAN: 'Riparazione fallita! Ripara di nuovo dopo 3 secondi! '
+    TURKISH: 'Onarım başarısız oldu! 3 saniye sonra tekrar onarın! '
+  - Key: NeedReStart
+    CN_s: 修复失败！3秒后退出游戏！
+    CN_t: 修复失敗！3秒後退出遊戲！
+    EN: Repair failed! Quit the game after 3 seconds!
+    AR: فشل الإصلاح! اخرج من اللعبة بعد 3 ثوان!
+    FR: 'La réparation a échoué! Quittez le jeu après 3 secondes! '
+    DE: 'Reparatur fehlgeschlagen! Beende das Spiel nach 3 Sekunden! '
+    ID: 'Perbaikan gagal! Keluar dari game setelah 3 detik! '
+    JP: '修理に失敗しました！ 3秒後にゲームを終了します！ '
+    KR: '수리하지 못했습니다! 3 초 후에 게임을 종료하십시오! '
+    PT_BR: 'O reparo falhou! Saia do jogo após 3 segundos! '
+    RU: 'Ремонт не удался! Выйти из игры через 3 секунды! '
+    ES_ES: '¡Reparación fallida! ¡Sal del juego después de 3 segundos! '
+    TH: 'ซ่อมไม่สำเร็จ! ออกจากเกมหลังจาก 3 วินาที! '
+    VI: 'Sửa chữa không thành công! Thoát game sau 3 giây! '
+    ITALIAN: 'Riparazione fallita! Esci dal gioco dopo 3 secondi! '
+    TURKISH: 'Onarım başarısız oldu! 3 saniye sonra oyundan çıkın! '
+  - Key: NeedPermission
+    CN_s: 程序修复需要写入权限.
+    CN_t:
+    EN: Program fixes require write permissions.
+    AR:
+    FR:
+    DE:
+    ID:
+    JP:
+    KR:
+    PT_BR:
+    RU:
+    ES_ES:
+    TH:
+    VI:
+    ITALIAN:
+    TURKISH:
