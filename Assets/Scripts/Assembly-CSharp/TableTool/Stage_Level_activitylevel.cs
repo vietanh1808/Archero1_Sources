@@ -1,0 +1,53 @@
+using CodeStage.AntiCheat.ObscuredTypes;
+
+namespace TableTool
+{
+	public class Stage_Level_activitylevel : LocalBean
+	{
+		private ObscuredString _RoomID;
+
+		private ObscuredString _Notes;
+
+		private ObscuredString[] _Attributes;
+
+		private ObscuredString[] _MapAttributes;
+
+		private ObscuredLong _StandardDefence;
+
+		private ObscuredString[] _RoomIDs;
+
+		private ObscuredString[] _RoomIDs1;
+
+		private ObscuredString[] _RoomIDs2;
+
+		private ObscuredString[] _Args;
+
+		public string RoomID => null;
+
+		public string Notes => null;
+
+		public string[] Attributes => null;
+
+		public string[] MapAttributes => null;
+
+		public long StandardDefence => 0L;
+
+		public string[] RoomIDs => null;
+
+		public string[] RoomIDs1 => null;
+
+		public string[] RoomIDs2 => null;
+
+		public string[] Args => null;
+
+		protected override bool ReadImpl()
+		{
+			return false;
+		}
+
+		public Stage_Level_activitylevel Copy()
+		{
+			return null;
+		}
+	}
+}
