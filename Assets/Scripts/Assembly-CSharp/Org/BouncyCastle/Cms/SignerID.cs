@@ -1,0 +1,17 @@
+using Org.BouncyCastle.X509.Store;
+
+namespace Org.BouncyCastle.Cms
+{
+	public class SignerID : X509CertStoreSelector
+	{
+		public override int GetHashCode()
+		{
+			return 0;
+		}
+
+		public override bool Equals(object obj)
+		{
+			return false;
+		}
+	}
+}
