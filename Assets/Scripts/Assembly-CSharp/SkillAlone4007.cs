@@ -1,0 +1,16 @@
+public class SkillAlone4007 : SkillAloneBase
+{
+	private int m_nBuffId;
+
+	protected override void OnInstall()
+	{
+	}
+
+	protected override void OnUninstall()
+	{
+	}
+
+	private void OnHitAction(EntityBase entity, HitStruct hs, HittedData data)
+	{
+	}
+}

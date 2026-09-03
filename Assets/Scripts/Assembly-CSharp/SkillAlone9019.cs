@@ -1,0 +1,100 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+
+public class SkillAlone9019 : SkillAloneBase
+{
+	[CompilerGenerated]
+	private sealed class _003CDelayCall_003Ed__9 : IEnumerator<object>, IEnumerator, IDisposable
+	{
+		private int _003C_003E1__state;
+
+		private object _003C_003E2__current;
+
+		public SkillAlone9019 _003C_003E4__this;
+
+		object IEnumerator<object>.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		object IEnumerator.Current
+		{
+			[DebuggerHidden]
+			get
+			{
+				return null;
+			}
+		}
+
+		[DebuggerHidden]
+		public _003CDelayCall_003Ed__9(int _003C_003E1__state)
+		{
+		}
+
+		[DebuggerHidden]
+		void IDisposable.Dispose()
+		{
+		}
+
+		private bool MoveNext()
+		{
+			return false;
+		}
+
+		bool IEnumerator.MoveNext()
+		{
+			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
+			return this.MoveNext();
+		}
+
+		[DebuggerHidden]
+		void IEnumerator.Reset()
+		{
+		}
+	}
+
+	private float hitRise;
+
+	private int certainlyTimes;
+
+	private int meteoriteBuffId;
+
+	private int finalBuffId;
+
+	private int meteoriteMaxTimes;
+
+	private int callMeteoriteTimes;
+
+	protected override void OnInstall()
+	{
+	}
+
+	protected override void OnUninstall()
+	{
+	}
+
+	private void ParseParams()
+	{
+	}
+
+	[IteratorStateMachine(typeof(_003CDelayCall_003Ed__9))]
+	private IEnumerator DelayCall()
+	{
+		return null;
+	}
+
+	private void OnGotoNextRoom(RoomGenerateBase.Room room)
+	{
+	}
+
+	private void OnCreateSlopeBulletTiger()
+	{
+	}
+}
