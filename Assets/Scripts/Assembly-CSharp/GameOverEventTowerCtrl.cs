@@ -1,0 +1,108 @@
+using System.Collections.Generic;
+
+public class GameOverEventTowerCtrl : GameOverLevelCtrl
+{
+	public class GameOverData
+	{
+		public int reborn_type;
+
+		public int reborn_count;
+	}
+
+	public bool isFirstComplete;
+
+	public override void OnLanguageChange()
+	{
+	}
+
+	protected override void CheckWinOrFail()
+	{
+	}
+
+	protected override bool HaveReward()
+	{
+		return false;
+	}
+
+	protected override void UpdateNewBestUI()
+	{
+	}
+
+	protected override bool IsShowNewBestUI()
+	{
+		return false;
+	}
+
+	protected override void OnClickCloseInternal()
+	{
+	}
+
+	protected override void OnLoading()
+	{
+	}
+
+	public override void PlayRewards()
+	{
+	}
+
+	protected override void ShowBest()
+	{
+	}
+
+	protected override void CheckInvalidEquip()
+	{
+	}
+
+	protected override void excute_reward()
+	{
+	}
+
+	protected override int GetExp()
+	{
+		return 0;
+	}
+
+	protected override int GetGold()
+	{
+		return 0;
+	}
+
+	protected override int GetDiamond()
+	{
+		return 0;
+	}
+
+	protected override int GetLargeDiamondItem()
+	{
+		return 0;
+	}
+
+	protected override int GetNormalDiamondItem()
+	{
+		return 0;
+	}
+
+	protected override int GetDragonBoxItem()
+	{
+		return 0;
+	}
+
+	protected override int GetRelicsBosKey()
+	{
+		return 0;
+	}
+
+	protected override List<LocalSave.EquipOne> GetEquips()
+	{
+		return null;
+	}
+
+	private int getCurrencyValue(CurrencyType currencyType)
+	{
+		return 0;
+	}
+
+	protected override void SendGameOver()
+	{
+	}
+}
