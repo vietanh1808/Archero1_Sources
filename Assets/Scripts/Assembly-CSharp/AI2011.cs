@@ -1,0 +1,6 @@
+public class AI2011 : AIBabyBase
+{
+	protected override void OnInit()
+	{
+	}
+}
