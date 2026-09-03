@@ -1,0 +1,45 @@
+using UnityEngine;
+
+public class AIMove1051 : AIMoveBase
+{
+	private EntityBase target;
+
+	private float redshowtime;
+
+	private float delaytime;
+
+	private float updatetime;
+
+	private RedLineCtrl mLineCtrl;
+
+	private GameObject effect;
+
+	private bool bCreateBullet;
+
+	private float m_fAnglePerSecond;
+
+	public AIMove1051(EntityBase entity, float redshowtime, float delaytime)
+		: base(null)
+	{
+	}
+
+	protected override void OnInitBase()
+	{
+	}
+
+	protected override void OnUpdate()
+	{
+	}
+
+	private void EffectCache()
+	{
+	}
+
+	private void LineCache()
+	{
+	}
+
+	protected override void OnEnd()
+	{
+	}
+}
