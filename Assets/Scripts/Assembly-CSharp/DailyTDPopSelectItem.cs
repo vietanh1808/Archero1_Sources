@@ -1,0 +1,78 @@
+using UnityEngine;
+using XLua;
+
+public class DailyTDPopSelectItem : MonoBehaviour
+{
+	[SerializeField]
+	private DxxImage imgIcon;
+
+	[SerializeField]
+	private DxxImage imgBase;
+
+	[SerializeField]
+	private DxxImage imgLock;
+
+	[SerializeField]
+	private Sprite spEmpty;
+
+	[SerializeField]
+	private Sprite spSelected;
+
+	[SerializeField]
+	private ButtonCtrl btn;
+
+	[SerializeField]
+	private DailyTDTopPanel panel;
+
+	private int id;
+
+	private static DelegateBridge __Hotfix0_Awake;
+
+	private static DelegateBridge __Hotfix0_OnClick;
+
+	private static DelegateBridge __Hotfix0_Refresh;
+
+	private static DelegateBridge __Hotfix0_SetData;
+
+	private static DelegateBridge __Hotfix0_Show;
+
+	private static DelegateBridge __Hotfix0_Hide;
+
+	private static DelegateBridge __Hotfix0_Close;
+
+	private static DelegateBridge __Hotfix0_updateImgLock;
+
+	private static DelegateBridge _c__Hotfix0_ctor;
+
+	private void Awake()
+	{
+	}
+
+	private void OnClick()
+	{
+	}
+
+	public void Refresh()
+	{
+	}
+
+	public void SetData(int id)
+	{
+	}
+
+	private void Show()
+	{
+	}
+
+	private void Hide()
+	{
+	}
+
+	public void Close()
+	{
+	}
+
+	private void updateImgLock()
+	{
+	}
+}
